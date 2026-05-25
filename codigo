@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sonia Juárez Estilistas | Especialista en Color y Belleza en Córdoba</title>
+<meta name="description" content="Sonia Juárez Estilistas – Especialista en color capilar, maquillaje profesional y diseño de cejas en Córdoba. +210 clientas satisfechas. Pide cita ahora.">
+<meta name="keywords" content="estilista Córdoba, peluquería profesional Córdoba, especialista color capilar Córdoba, maquillaje profesional Córdoba, diseño cejas Córdoba, salón de belleza Córdoba, Sonia Juárez">
+<meta property="og:title" content="Sonia Juárez Estilistas | Belleza Premium en Córdoba">
+<meta property="og:description" content="Especialista en color, maquillaje y diseño de cejas. Más de 210 clientas que confían en nosotras. Reserva tu cita hoy.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<link rel="canonical" href="https://soniajuarezestilistas.es">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Sonia Juárez Estilistas",
+  "description": "Especialista en color capilar, maquillaje profesional y diseño de cejas en Córdoba",
+  "url": "https://soniajuarezestilistas.es",
+  "telephone": "+34957089036",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "C/ María Montessori, 4",
+    "addressLocality": "Córdoba",
+    "postalCode": "14011",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 37.8882,
+    "longitude": -4.7794
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "210"
+  },
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday"],"opens":"09:00","closes":"18:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Thursday","Friday"],"opens":"09:30","closes":"18:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"14:00"}
+  ],
+  "sameAs": [
+    "https://www.instagram.com/soniajuarez_profesional_artist/",
+    "https://www.facebook.com/soniajuarezestilistas/"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ivory:#faf8f4;
+  --warm-white:#f5f2ec;
+  --beige:#e8e0d4;
+  --nude:#d4c9b8;
+  --taupe:#b5a899;
+  --stone:#8c7d6e;
+  --charcoal:#2c2420;
+  --soft-black:#1a1410;
+  --gold:#c9a96e;
+  --gold-light:#e8d5a3;
+  --serif:'Cormorant Garamond',Georgia,serif;
+  --sans:'Jost',sans-serif;
+  --transition:0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--sans);background:var(--ivory);color:var(--charcoal);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* ─── UTILITIES ─── */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.container{max-width:1240px;margin:0 auto;padding:0 40px}
+@media(max-width:768px){.container{padding:0 24px}}
+.gold-line{width:48px;height:1px;background:var(--gold);display:inline-block}
+.eyebrow{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.btn-primary{display:inline-flex;align-items:center;gap:8px;padding:16px 36px;background:var(--charcoal);color:var(--ivory);font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;border:1px solid var(--charcoal);transition:var(--transition);cursor:pointer}
+.btn-primary:hover{background:transparent;color:var(--charcoal)}
+.btn-outline{display:inline-flex;align-items:center;gap:8px;padding:16px 36px;background:transparent;color:var(--charcoal);font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;border:1px solid var(--charcoal);transition:var(--transition);cursor:pointer}
+.btn-outline:hover{background:var(--charcoal);color:var(--ivory)}
+.btn-gold{display:inline-flex;align-items:center;gap:8px;padding:16px 36px;background:var(--gold);color:var(--ivory);font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;border:1px solid var(--gold);transition:var(--transition);cursor:pointer}
+.btn-gold:hover{background:transparent;color:var(--gold)}
+.btn-white{display:inline-flex;align-items:center;gap:8px;padding:16px 36px;background:var(--ivory);color:var(--charcoal);font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;border:1px solid var(--ivory);transition:var(--transition);cursor:pointer}
+.btn-white:hover{background:transparent;color:var(--ivory)}
+
+/* ─── FADE IN ANIMATIONS ─── */
+.fade-up{opacity:0;transform:translateY(40px);transition:opacity 0.8s ease, transform 0.8s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+.fade-in{opacity:0;transition:opacity 1s ease}
+.fade-in.visible{opacity:1}
+.stagger-1{transition-delay:.1s}
+.stagger-2{transition-delay:.2s}
+.stagger-3{transition-delay:.3s}
+.stagger-4{transition-delay:.4s}
+.stagger-5{transition-delay:.5s}
+.stagger-6{transition-delay:.6s}
+
+/* ─── HEADER ─── */
+#header{position:fixed;top:0;left:0;right:0;z-index:1000;padding:24px 0;transition:all 0.5s ease}
+#header.scrolled{background:rgba(250,248,244,0.97);backdrop-filter:blur(12px);padding:16px 0;border-bottom:1px solid var(--beige)}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:var(--serif);font-size:20px;font-weight:400;letter-spacing:.08em;color:var(--ivory);text-decoration:none;transition:color 0.3s}
+#header.scrolled .logo{color:var(--charcoal)}
+.nav-links{display:flex;align-items:center;gap:40px;list-style:none}
+.nav-links a{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;color:rgba(250,248,244,0.85);transition:color 0.3s}
+#header.scrolled .nav-links a{color:var(--stone)}
+.nav-links a:hover{color:var(--gold)}
+.nav-cta{display:flex;align-items:center;gap:16px}
+.nav-tel{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.1em;color:rgba(250,248,244,0.85);text-decoration:none;transition:color 0.3s}
+#header.scrolled .nav-tel{color:var(--stone)}
+.nav-tel:hover{color:var(--gold)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
+.hamburger span{width:24px;height:1px;background:var(--ivory);transition:all 0.3s}
+#header.scrolled .hamburger span{background:var(--charcoal)}
+.mobile-menu{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:var(--soft-black);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:40px;opacity:0;transition:opacity 0.4s}
+.mobile-menu.open{display:flex;opacity:1}
+.mobile-menu a{font-family:var(--serif);font-size:36px;font-weight:300;color:var(--ivory);text-decoration:none;letter-spacing:.05em;transition:color 0.3s}
+.mobile-menu a:hover{color:var(--gold)}
+.mobile-close{position:absolute;top:24px;right:24px;font-size:28px;color:var(--ivory);cursor:pointer;background:none;border:none}
+@media(max-width:900px){.nav-links{display:none}.hamburger{display:flex}}
+
+/* ─── HERO ─── */
+#hero{position:relative;height:100vh;min-height:700px;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:
+  linear-gradient(160deg,rgba(26,20,16,0.72) 0%,rgba(44,36,32,0.55) 50%,rgba(26,20,16,0.68) 100%),
+  url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=80&auto=format&fit=crop') center/cover no-repeat;
+}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 60%,rgba(26,20,16,0.4))}
+.hero-content{position:relative;z-index:2;max-width:760px}
+.hero-eyebrow{display:flex;align-items:center;gap:16px;margin-bottom:32px;opacity:0;animation:fadeUp 1s 0.3s forwards}
+.hero-eyebrow span{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-light)}
+.hero-stars{display:flex;align-items:center;gap:6px}
+.hero-stars .stars{color:var(--gold);font-size:13px;letter-spacing:2px}
+.hero-stars .rating{font-family:var(--sans);font-size:12px;color:rgba(250,248,244,0.8);letter-spacing:.05em}
+.hero-title{font-family:var(--serif);font-size:clamp(52px,7vw,96px);font-weight:300;line-height:1.0;color:var(--ivory);margin-bottom:10px;opacity:0;animation:fadeUp 1s 0.5s forwards}
+.hero-title em{font-style:italic;color:var(--gold-light)}
+.hero-subtitle{font-family:var(--sans);font-size:clamp(13px,1.8vw,16px);font-weight:300;letter-spacing:.12em;text-transform:uppercase;color:rgba(250,248,244,0.7);margin-bottom:48px;opacity:0;animation:fadeUp 1s 0.7s forwards}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:16px;opacity:0;animation:fadeUp 1s 0.9s forwards}
+.hero-badge{position:absolute;right:80px;bottom:80px;text-align:center;opacity:0;animation:fadeIn 1.2s 1.2s forwards}
+.hero-badge-ring{width:120px;height:120px;border:1px solid rgba(201,169,110,0.4);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:rgba(26,20,16,0.5);backdrop-filter:blur(8px)}
+.hero-badge-num{font-family:var(--serif);font-size:32px;font-weight:300;color:var(--gold-light);line-height:1}
+.hero-badge-label{font-family:var(--sans);font-size:9px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,248,244,0.7)}
+.hero-scroll{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;opacity:0;animation:fadeIn 1.5s 1.5s forwards}
+.hero-scroll span{font-size:9px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,248,244,0.5)}
+.scroll-line{width:1px;height:48px;background:linear-gradient(to bottom,rgba(201,169,110,0.6),transparent);animation:scrollPulse 2s infinite}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes scrollPulse{0%,100%{transform:scaleY(1)}50%{transform:scaleY(0.7)}}
+@media(max-width:768px){.hero-badge{display:none}.hero-scroll{display:none}}
+
+/* ─── TRUST BAR ─── */
+#trust{padding:80px 0;background:var(--warm-white);border-bottom:1px solid var(--beige)}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--beige)}
+.trust-item{background:var(--warm-white);padding:48px 40px;text-align:center}
+.trust-icon{font-size:28px;margin-bottom:20px;display:block;color:var(--gold)}
+.trust-num{font-family:var(--serif);font-size:44px;font-weight:300;color:var(--charcoal);line-height:1;margin-bottom:8px}
+.trust-label{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--stone)}
+.trust-desc{font-family:var(--sans);font-size:14px;font-weight:300;color:var(--stone);margin-top:8px;line-height:1.6}
+@media(max-width:900px){.trust-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.trust-grid{grid-template-columns:1fr}}
+
+/* ─── ABOUT ─── */
+#about{padding:140px 0;background:var(--ivory)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center}
+.about-visual{position:relative}
+.about-img-main{width:100%;aspect-ratio:3/4;object-fit:cover;background:var(--beige);display:block;
+  background-image:url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80&auto=format&fit=crop');
+  background-size:cover;background-position:center}
+.about-img-accent{position:absolute;bottom:-40px;right:-40px;width:55%;aspect-ratio:1/1;
+  background:var(--nude);background-image:url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600&q=80&auto=format&fit=crop');
+  background-size:cover;background-position:center;border:6px solid var(--ivory)}
+.about-accent-line{position:absolute;top:40px;left:-20px;width:1px;height:100px;background:var(--gold)}
+.about-text .eyebrow{display:flex;align-items:center;gap:16px;margin-bottom:32px}
+.about-title{font-family:var(--serif);font-size:clamp(40px,4.5vw,62px);font-weight:300;line-height:1.1;color:var(--charcoal);margin-bottom:32px}
+.about-title em{font-style:italic;color:var(--stone)}
+.about-body{font-family:var(--sans);font-size:16px;font-weight:300;line-height:1.9;color:var(--stone);margin-bottom:24px}
+.about-signature{font-family:var(--serif);font-size:32px;font-style:italic;font-weight:300;color:var(--charcoal);margin:32px 0;padding-left:24px;border-left:2px solid var(--gold)}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:60px}.about-img-accent{display:none}.about-accent-line{display:none}}
+
+/* ─── SERVICES ─── */
+#services{padding:140px 0;background:var(--soft-black)}
+.services-header{text-align:center;margin-bottom:80px}
+.services-header .eyebrow{color:var(--gold)}
+.services-title{font-family:var(--serif);font-size:clamp(40px,4.5vw,62px);font-weight:300;color:var(--ivory);margin-top:20px;line-height:1.1}
+.services-title em{font-style:italic;color:var(--gold-light)}
+.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,0.06)}
+.service-card{background:var(--soft-black);padding:56px 40px;position:relative;overflow:hidden;cursor:pointer;transition:background var(--transition)}
+.service-card::before{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform 0.5s ease}
+.service-card:hover{background:#231c18}
+.service-card:hover::before{transform:scaleX(1)}
+.service-num{font-family:var(--serif);font-size:72px;font-weight:300;color:rgba(255,255,255,0.04);position:absolute;top:24px;right:24px;line-height:1}
+.service-icon{font-size:24px;color:var(--gold);margin-bottom:32px;display:block}
+.service-name{font-family:var(--serif);font-size:26px;font-weight:300;color:var(--ivory);margin-bottom:16px;line-height:1.2}
+.service-desc{font-family:var(--sans);font-size:14px;font-weight:300;line-height:1.8;color:rgba(250,248,244,0.5);margin-bottom:32px}
+.service-cta{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);text-decoration:none;display:flex;align-items:center;gap:8px;transition:gap 0.3s}
+.service-card:hover .service-cta{gap:14px}
+@media(max-width:1100px){.services-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.services-grid{grid-template-columns:1fr}}
+
+/* ─── GALLERY ─── */
+#gallery{padding:140px 0;background:var(--warm-white)}
+.gallery-header{text-align:center;margin-bottom:80px}
+.gallery-title{font-family:var(--serif);font-size:clamp(40px,4.5vw,62px);font-weight:300;color:var(--charcoal);margin-top:20px;line-height:1.1}
+.gallery-title em{font-style:italic;color:var(--stone)}
+.gallery-grid{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:80px;gap:8px}
+.gallery-item{overflow:hidden;cursor:pointer;position:relative}
+.gallery-item img,.gallery-item .g-img{width:100%;height:100%;object-fit:cover;background-size:cover;background-position:center;transition:transform 0.7s ease}
+.gallery-item:hover img,.gallery-item:hover .g-img{transform:scale(1.06)}
+.gallery-item .g-overlay{position:absolute;inset:0;background:rgba(26,20,16,0);transition:background 0.4s}
+.gallery-item:hover .g-overlay{background:rgba(26,20,16,0.25)}
+.g1{grid-column:1/5;grid-row:1/5}
+.g2{grid-column:5/9;grid-row:1/4}
+.g3{grid-column:9/13;grid-row:1/4}
+.g4{grid-column:5/8;grid-row:4/7}
+.g5{grid-column:8/13;grid-row:4/7}
+.g6{grid-column:1/5;grid-row:5/8}
+.g-img{background-image:attr(data-bg);height:100%}
+@media(max-width:900px){.gallery-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:200px}.g1,.g2,.g3,.g4,.g5,.g6{grid-column:auto;grid-row:auto}}
+@media(max-width:500px){.gallery-grid{grid-template-columns:1fr}}
+
+/* ─── REVIEWS ─── */
+#reviews{padding:140px 0;background:var(--ivory)}
+.reviews-header{text-align:center;margin-bottom:24px}
+.reviews-title{font-family:var(--serif);font-size:clamp(40px,4.5vw,62px);font-weight:300;color:var(--charcoal);margin-top:20px;line-height:1.1}
+.reviews-title em{font-style:italic;color:var(--stone)}
+.reviews-stars-block{display:flex;align-items:center;justify-content:center;gap:24px;margin-bottom:80px}
+.big-rating{font-family:var(--serif);font-size:80px;font-weight:300;color:var(--charcoal);line-height:1}
+.rating-details{display:flex;flex-direction:column;gap:4px}
+.rating-stars{color:var(--gold);font-size:24px;letter-spacing:3px}
+.rating-count{font-family:var(--sans);font-size:13px;color:var(--stone);letter-spacing:.05em}
+.reviews-carousel{position:relative;overflow:hidden}
+.reviews-track{display:flex;gap:32px;transition:transform 0.6s cubic-bezier(0.25,0.46,0.45,0.94)}
+.review-card{flex:0 0 calc(33.333% - 22px);background:var(--warm-white);padding:48px 40px;position:relative;border:1px solid var(--beige)}
+.review-quote{font-family:var(--serif);font-size:80px;font-weight:300;color:var(--gold);line-height:0.7;margin-bottom:24px;opacity:0.4}
+.review-text{font-family:var(--serif);font-size:18px;font-weight:300;font-style:italic;line-height:1.8;color:var(--charcoal);margin-bottom:32px}
+.review-meta{display:flex;align-items:center;gap:16px;border-top:1px solid var(--beige);padding-top:24px}
+.review-avatar{width:44px;height:44px;border-radius:50%;background:var(--nude);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:18px;color:var(--stone);flex-shrink:0}
+.review-name{font-family:var(--sans);font-size:13px;font-weight:500;letter-spacing:.08em;color:var(--charcoal)}
+.review-service{font-family:var(--sans);font-size:12px;color:var(--stone);margin-top:2px}
+.review-stars{color:var(--gold);font-size:12px;letter-spacing:2px;margin-bottom:4px}
+.reviews-controls{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:48px}
+.rev-btn{width:48px;height:48px;border:1px solid var(--nude);background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--stone);transition:all 0.3s}
+.rev-btn:hover{border-color:var(--charcoal);color:var(--charcoal)}
+.rev-dots{display:flex;gap:8px}
+.rev-dot{width:6px;height:6px;border-radius:50%;background:var(--beige);cursor:pointer;transition:background 0.3s}
+.rev-dot.active{background:var(--charcoal)}
+@media(max-width:900px){.review-card{flex:0 0 calc(100% - 0px)}}
+
+/* ─── INSTAGRAM ─── */
+#instagram{padding:120px 0;background:var(--soft-black)}
+.ig-inner{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center}
+.ig-text .eyebrow{color:var(--gold)}
+.ig-title{font-family:var(--serif);font-size:clamp(36px,4vw,58px);font-weight:300;color:var(--ivory);margin:20px 0 24px;line-height:1.1}
+.ig-title em{font-style:italic;color:var(--gold-light)}
+.ig-body{font-family:var(--sans);font-size:15px;font-weight:300;color:rgba(250,248,244,0.55);line-height:1.9;margin-bottom:40px}
+.ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.ig-cell{aspect-ratio:1;overflow:hidden;cursor:pointer;background:var(--charcoal)}
+.ig-cell .ig-img{width:100%;height:100%;background-size:cover;background-position:center;transition:transform 0.6s ease,opacity 0.4s}
+.ig-cell:hover .ig-img{transform:scale(1.08);opacity:0.75}
+@media(max-width:900px){.ig-inner{grid-template-columns:1fr;gap:60px}}
+
+/* ─── SCHEDULE ─── */
+#schedule{padding:120px 0;background:var(--warm-white)}
+.schedule-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:start}
+.schedule-text .eyebrow{display:flex;align-items:center;gap:16px;margin-bottom:32px}
+.schedule-title{font-family:var(--serif);font-size:clamp(36px,4vw,58px);font-weight:300;color:var(--charcoal);line-height:1.1;margin-bottom:32px}
+.schedule-title em{font-style:italic;color:var(--stone)}
+.schedule-body{font-family:var(--sans);font-size:15px;font-weight:300;color:var(--stone);line-height:1.9;margin-bottom:40px}
+.hours-list{list-style:none}
+.hours-item{display:flex;justify-content:space-between;align-items:center;padding:18px 0;border-bottom:1px solid var(--beige)}
+.hours-item:last-child{border-bottom:none}
+.hours-day{font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--charcoal)}
+.hours-time{font-family:var(--serif);font-size:17px;font-weight:300;color:var(--stone)}
+.hours-time.closed{color:var(--nude);font-style:italic}
+.hours-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);margin-right:12px;display:inline-block}
+.hours-dot.off{background:var(--nude)}
+@media(max-width:900px){.schedule-grid{grid-template-columns:1fr;gap:60px}}
+
+/* ─── CTA FINAL ─── */
+#cta-final{padding:160px 0;background:var(--charcoal);position:relative;overflow:hidden;text-align:center}
+.cta-bg-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:var(--serif);font-size:clamp(120px,16vw,220px);font-weight:300;color:rgba(255,255,255,0.03);white-space:nowrap;pointer-events:none;line-height:1}
+.cta-eyebrow{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:32px}
+.cta-eyebrow .gold-line,.cta-eyebrow2 .gold-line{background:var(--gold)}
+.cta-eyebrow span{color:var(--gold)}
+.cta-title{font-family:var(--serif);font-size:clamp(44px,6vw,88px);font-weight:300;color:var(--ivory);line-height:1.0;margin-bottom:24px}
+.cta-title em{font-style:italic;color:var(--gold-light)}
+.cta-sub{font-family:var(--sans);font-size:15px;font-weight:300;color:rgba(250,248,244,0.55);letter-spacing:.1em;margin-bottom:56px}
+.cta-buttons{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px}
+.cta-tel{display:flex;align-items:center;gap:8px;font-family:var(--sans);font-size:13px;font-weight:400;letter-spacing:.1em;color:rgba(250,248,244,0.4);margin-top:40px;text-decoration:none;transition:color 0.3s;justify-content:center}
+.cta-tel:hover{color:var(--gold)}
+
+/* ─── FOOTER ─── */
+#footer{background:var(--soft-black);padding:100px 0 0;border-top:1px solid rgba(255,255,255,0.05)}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:80px;margin-bottom:80px}
+.footer-brand .logo{font-family:var(--serif);font-size:22px;font-weight:300;color:var(--ivory);display:block;margin-bottom:24px;letter-spacing:.05em;text-decoration:none}
+.footer-tagline{font-family:var(--sans);font-size:13px;font-weight:300;color:rgba(250,248,244,0.4);line-height:1.8;margin-bottom:32px;max-width:260px}
+.footer-socials{display:flex;gap:16px}
+.footer-social{width:40px;height:40px;border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;color:rgba(250,248,244,0.5);text-decoration:none;font-size:16px;transition:all 0.3s}
+.footer-social:hover{border-color:var(--gold);color:var(--gold)}
+.footer-col-title{font-family:var(--sans);font-size:10px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:28px}
+.footer-col ul{list-style:none}
+.footer-col li{margin-bottom:14px}
+.footer-col a{font-family:var(--sans);font-size:14px;font-weight:300;color:rgba(250,248,244,0.45);text-decoration:none;transition:color 0.3s}
+.footer-col a:hover{color:var(--ivory)}
+.footer-address{font-family:var(--sans);font-size:14px;font-weight:300;color:rgba(250,248,244,0.45);line-height:2}
+.footer-map{width:100%;height:280px;filter:grayscale(60%) brightness(0.6);margin-top:48px;border:1px solid rgba(255,255,255,0.05)}
+.footer-map iframe{width:100%;height:100%;border:none}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.06);padding:28px 0;display:flex;align-items:center;justify-content:space-between}
+.footer-copy{font-family:var(--sans);font-size:12px;color:rgba(250,248,244,0.25)}
+@media(max-width:1100px){.footer-grid{grid-template-columns:1fr 1fr;gap:48px}}
+@media(max-width:600px){.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:12px;text-align:center}}
+
+/* ─── STICKY WIDGETS ─── */
+.sticky-ctas{position:fixed;bottom:32px;right:32px;display:flex;flex-direction:column;gap:12px;z-index:900}
+.sticky-btn{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:22px;box-shadow:0 4px 24px rgba(0,0,0,0.2);transition:transform 0.3s,box-shadow 0.3s}
+.sticky-btn:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,0.25)}
+.sticky-call{background:var(--charcoal);color:var(--ivory)}
+.sticky-wa{background:#25d366;color:#fff}
+.sticky-ig{background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:#fff}
+.sticky-tooltip{position:absolute;right:64px;white-space:nowrap;background:var(--charcoal);color:var(--ivory);font-size:11px;font-weight:500;letter-spacing:.1em;padding:6px 14px;opacity:0;transition:opacity 0.3s;pointer-events:none}
+.sticky-btn:hover .sticky-tooltip{opacity:1}
+
+/* ─── LIGHTBOX ─── */
+.lightbox{position:fixed;inset:0;background:rgba(26,20,16,0.95);z-index:2000;display:none;align-items:center;justify-content:center;cursor:pointer}
+.lightbox.open{display:flex}
+.lightbox img{max-width:90vw;max-height:90vh;object-fit:contain}
+.lightbox-close{position:absolute;top:32px;right:32px;color:var(--ivory);font-size:32px;cursor:pointer;opacity:0.7;line-height:1;background:none;border:none}
+
+/* ─── LOADING BAR ─── */
+.page-loader{position:fixed;inset:0;background:var(--soft-black);z-index:9999;display:flex;align-items:center;justify-content:center;transition:opacity 0.8s 0.3s, visibility 0.8s 0.3s}
+.page-loader.done{opacity:0;visibility:hidden}
+.loader-content{text-align:center}
+.loader-logo{font-family:var(--serif);font-size:28px;font-weight:300;color:var(--ivory);letter-spacing:.15em;margin-bottom:40px}
+.loader-bar-wrap{width:200px;height:1px;background:rgba(255,255,255,0.1);overflow:hidden}
+.loader-bar{width:0%;height:100%;background:var(--gold);transition:width 0.8s ease}
+</style>
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="page-loader" id="loader">
+  <div class="loader-content">
+    <div class="loader-logo">Sonia Juárez</div>
+    <div class="loader-bar-wrap"><div class="loader-bar" id="loaderBar"></div></div>
+  </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightboxImg" src="" alt="Galería Sonia Juárez">
+</div>
+
+<!-- MOBILE MENU -->
+<nav class="mobile-menu" id="mobileMenu" aria-label="Menú de navegación">
+  <button class="mobile-close" onclick="closeMobileMenu()" aria-label="Cerrar menú">✕</button>
+  <a href="#about" onclick="closeMobileMenu()">Quiénes somos</a>
+  <a href="#services" onclick="closeMobileMenu()">Servicios</a>
+  <a href="#gallery" onclick="closeMobileMenu()">Galería</a>
+  <a href="#reviews" onclick="closeMobileMenu()">Reseñas</a>
+  <a href="#schedule" onclick="closeMobileMenu()">Horario</a>
+  <a href="tel:957089036" style="color:var(--gold)">957 08 90 36</a>
+</nav>
+
+<!-- HEADER -->
+<header id="header" role="banner">
+  <div class="container">
+    <div class="header-inner">
+      <a href="#hero" class="logo" aria-label="Sonia Juárez Estilistas – Inicio">Sonia Juárez Estilistas</a>
+      <ul class="nav-links" role="navigation" aria-label="Navegación principal">
+        <li><a href="#about">Sobre nosotras</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#reviews">Reseñas</a></li>
+        <li><a href="#schedule">Horario</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:957089036" class="nav-tel" aria-label="Llamar al 957 08 90 36">957 08 90 36</a>
+        <button class="hamburger" onclick="openMobileMenu()" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero" aria-label="Presentación principal">
+  <div class="hero-bg" role="img" aria-label="Estilista profesional trabajando"></div>
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span>Córdoba · Especialistas en belleza</span>
+        <div class="hero-stars">
+          <span class="stars" aria-label="5 estrellas">★★★★★</span>
+          <span class="rating">4.8 / 5 · +210 reseñas</span>
+        </div>
+      </div>
+      <h1 class="hero-title">Tu mejor versión<br><em>empieza aquí</em></h1>
+      <p class="hero-subtitle">Color · Maquillaje · Diseño de cejas · Imagen personal</p>
+      <div class="hero-ctas">
+        <a href="tel:957089036" class="btn-white">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Reservar cita
+        </a>
+        <a href="https://www.instagram.com/soniajuarez_profesional_artist/" target="_blank" rel="noopener" class="btn-outline" style="color:rgba(250,248,244,0.9);border-color:rgba(250,248,244,0.4)">Ver trabajos</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-badge" aria-label="4.8 sobre 5 estrellas">
+    <div class="hero-badge-ring">
+      <span class="hero-badge-num" aria-hidden="true">4.8</span>
+      <span class="hero-badge-label">de 5 estrellas</span>
+      <span class="hero-badge-label">★★★★★</span>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <span>Desplázate</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Por qué elegirnos">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item fade-up">
+        <span class="trust-icon" aria-hidden="true">✦</span>
+        <div class="trust-num">+210</div>
+        <div class="trust-label">Clientas satisfechas</div>
+        <div class="trust-desc">Más de 210 mujeres confían en Sonia para su imagen</div>
+      </div>
+      <div class="trust-item fade-up stagger-2">
+        <span class="trust-icon" aria-hidden="true">◈</span>
+        <div class="trust-num">4.8</div>
+        <div class="trust-label">Valoración media</div>
+        <div class="trust-desc">Puntuación extraordinaria basada en cientos de reseñas</div>
+      </div>
+      <div class="trust-item fade-up stagger-3">
+        <span class="trust-icon" aria-hidden="true">◇</span>
+        <div class="trust-num">100%</div>
+        <div class="trust-label">Atención personalizada</div>
+        <div class="trust-desc">Cada clienta recibe una experiencia única y cuidada</div>
+      </div>
+      <div class="trust-item fade-up stagger-4">
+        <span class="trust-icon" aria-hidden="true">❋</span>
+        <div class="trust-num">+15</div>
+        <div class="trust-label">Años de experiencia</div>
+        <div class="trust-desc">Formación continua en las últimas técnicas de belleza</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" aria-label="Sobre Sonia Juárez">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual fade-in">
+        <div class="about-img-main" role="img" aria-label="Sonia Juárez, estilista profesional en Córdoba"></div>
+        <div class="about-img-accent" role="img" aria-label="Trabajo de color capilar profesional"></div>
+        <div class="about-accent-line" aria-hidden="true"></div>
+      </div>
+      <div class="about-text">
+        <div class="eyebrow fade-up">
+          <div class="gold-line" aria-hidden="true"></div>
+          <span>Sobre Sonia Juárez</span>
+        </div>
+        <h2 class="about-title fade-up stagger-1">
+          Belleza que <em>transforma,</em><br>resultados que enamoran
+        </h2>
+        <p class="about-body fade-up stagger-2">
+          Sonia Juárez es mucho más que una estilista. Es una artista de la imagen personal que lleva más de una década creando transformaciones reales en mujeres de Córdoba.
+        </p>
+        <p class="about-body fade-up stagger-3">
+          Su filosofía parte de un principio claro: cada mujer tiene una belleza singular que merece ser potenciada, no ocultada. Por eso cada servicio comienza con una escucha profunda y termina con un resultado que va mucho más allá de lo esperado.
+        </p>
+        <p class="about-body fade-up stagger-4">
+          Especializada en color capilar de alta precisión, maquillaje profesional y diseño de cejas, Sonia combina técnica impecable con una sensibilidad estética única. El resultado: una imagen sofisticada, natural y completamente tuya.
+        </p>
+        <blockquote class="about-signature fade-up stagger-5">
+          "Mi mayor éxito es que salgas sintiéndote la mejor versión de ti misma."
+        </blockquote>
+        <div class="fade-up stagger-6">
+          <a href="tel:957089036" class="btn-primary">Reservar mi cita</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" aria-label="Nuestros servicios">
+  <div class="container">
+    <div class="services-header fade-up">
+      <span class="eyebrow">Servicios premium</span>
+      <h2 class="services-title">Una experiencia<br><em>de belleza completa</em></h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-up">
+        <span class="service-num" aria-hidden="true">01</span>
+        <span class="service-icon" aria-hidden="true">◈</span>
+        <h3 class="service-name">Color<br>Profesional</h3>
+        <p class="service-desc">Especialistas en realzar tu tono natural con técnicas avanzadas de coloración. Mechas, balayage, color liso… resultados que impresionan.</p>
+        <a href="tel:957089036" class="service-cta">Reservar cita <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="service-card fade-up stagger-2">
+        <span class="service-num" aria-hidden="true">02</span>
+        <span class="service-icon" aria-hidden="true">✦</span>
+        <h3 class="service-name">Maquillaje<br>Profesional</h3>
+        <p class="service-desc">Para novias, eventos especiales y sesiones fotográficas. Maquillaje de larga duración con acabados desde naturales hasta dramáticos.</p>
+        <a href="tel:957089036" class="service-cta">Reservar cita <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="service-card fade-up stagger-3">
+        <span class="service-num" aria-hidden="true">03</span>
+        <span class="service-icon" aria-hidden="true">◇</span>
+        <h3 class="service-name">Diseño<br>de Cejas</h3>
+        <p class="service-desc">Perfilado de precisión que enmarca tu mirada. Técnicas personalizadas para lograr una definición natural y armónica con tus rasgos.</p>
+        <a href="tel:957089036" class="service-cta">Reservar cita <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="service-card fade-up stagger-4">
+        <span class="service-num" aria-hidden="true">04</span>
+        <span class="service-icon" aria-hidden="true">❋</span>
+        <h3 class="service-name">Asesoramiento<br>de Imagen</h3>
+        <p class="service-desc">Análisis personalizado de tu tipo de piel, colorimetría y estilo. Recomendaciones profesionales para potenciar tu imagen en el día a día.</p>
+        <a href="tel:957089036" class="service-cta">Reservar cita <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" aria-label="Galería de trabajos">
+  <div class="container">
+    <div class="gallery-header fade-up">
+      <span class="eyebrow">Nuestro trabajo</span>
+      <h2 class="gallery-title">Cada clienta,<br><em>una obra única</em></h2>
+    </div>
+    <div class="gallery-grid" role="list">
+      <div class="gallery-item g1 fade-in" role="listitem" onclick="openLightbox('https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=1200&q=85')" tabindex="0" aria-label="Ver imagen de color capilar">
+        <div class="g-img" style="background-image:url('https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=800&q=80');height:100%"></div>
+        <div class="g-overlay"></div>
+      </div>
+      <div class="gallery-item g2 fade-in stagger-1" role="listitem" onclick="openLightbox('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&q=85')" tabindex="0" aria-label="Ver imagen de maquillaje">
+        <div class="g-img" style="background-image:url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&q=80');height:100%"></div>
+        <div class="g-overlay"></div>
+      </div>
+      <div class="gallery-item g3 fade-in stagger-2" role="listitem" onclick="openLightbox('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=85')" tabindex="0" aria-label="Ver imagen de belleza">
+        <div class="g-img" style="background-image:url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80');height:100%"></div>
+        <div class="g-overlay"></div>
+      </div>
+      <div class="gallery-item g4 fade-in stagger-3" role="listitem" onclick="openLightbox('https://images.unsplash.com/photo-1522337660329-26b11be3965b?w=1200&q=85')" tabindex="0" aria-label="Ver imagen de peinado">
+        <div class="g-img" style="background-image:url('https://images.unsplash.com/photo-1522337660329-26b11be3965b?w=800&q=80');height:100%"></div>
+        <div class="g-overlay"></div>
+      </div>
+      <div class="gallery-item g5 fade-in stagger-4" role="listitem" onclick="openLightbox('https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=1200&q=85')" tabindex="0" aria-label="Ver imagen de maquillaje profesional">
+        <div class="g-img" style="background-image:url('https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=800&q=80');height:100%"></div>
+        <div class="g-overlay"></div>
+      </div>
+      <div class="gallery-item g6 fade-in stagger-5" role="listitem" onclick="openLightbox('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=1200&q=85')" tabindex="0" aria-label="Ver imagen de color">
+        <div class="g-img" style="background-image:url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&q=80');height:100%"></div>
+        <div class="g-overlay"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" aria-label="Reseñas de clientas">
+  <div class="container">
+    <div class="reviews-header fade-up">
+      <span class="eyebrow">Lo que dicen nuestras clientas</span>
+      <h2 class="reviews-title">Resultados que<br><em>hablan por sí solos</em></h2>
+    </div>
+    <div class="reviews-stars-block fade-up stagger-2" aria-label="Valoración media 4.8 sobre 5">
+      <div class="big-rating" aria-hidden="true">4.8</div>
+      <div class="rating-details">
+        <div class="rating-stars" aria-label="5 estrellas">★★★★★</div>
+        <div class="rating-count">+210 reseñas verificadas</div>
+        <div class="rating-count" style="margin-top:4px;color:var(--gold)">Google · Facebook · Instagram</div>
+      </div>
+    </div>
+    <div class="reviews-carousel" aria-label="Testimonios">
+      <div class="reviews-track" id="reviewsTrack">
+        <div class="review-card fade-up">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">Llevo años viniendo con Sonia y cada vez que salgo del salón parece magia. Sabe exactamente lo que necesitas incluso antes de que lo digas. Mi color nunca había tenido tanto brillo ni tanta vida.</p>
+          <div class="review-meta">
+            <div class="review-avatar" aria-hidden="true">MR</div>
+            <div>
+              <div class="review-name">María Rodríguez</div>
+              <div class="review-service">Color y balayage</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card fade-up stagger-2">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">Me hizo el maquillaje de novia y fue absolutamente perfecto. Aguantó toda la boda, el llanto incluido. El diseño de cejas que me hace de forma habitual ha cambiado completamente mi cara. Una artista.</p>
+          <div class="review-meta">
+            <div class="review-avatar" aria-hidden="true">LP</div>
+            <div>
+              <div class="review-name">Laura Pérez</div>
+              <div class="review-service">Maquillaje de novia · Cejas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card fade-up stagger-3">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">El trato es exquisito, el ambiente precioso y los resultados increíbles. Sonia me hizo el asesoramiento de imagen y fue una revelación. Por fin sé exactamente qué colores y estilos potencian mi belleza natural.</p>
+          <div class="review-meta">
+            <div class="review-avatar" aria-hidden="true">AC</div>
+            <div>
+              <div class="review-name">Ana García</div>
+              <div class="review-service">Asesoramiento de imagen</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">Vine con el pelo muy dañado y sin forma y salí transformada. Sonia tiene un nivel técnico impresionante y además hace que todo el proceso sea un placer. Claramente la mejor estilista de Córdoba.</p>
+          <div class="review-meta">
+            <div class="review-avatar" aria-hidden="true">SM</div>
+            <div>
+              <div class="review-name">Sofía Martínez</div>
+              <div class="review-service">Tratamiento y color</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">El diseño de cejas que me hace Sonia ha rejuvenecido mi cara 10 años. Parece un detalle pequeño pero el efecto es brutal. Y el ambiente del salón es de lo más agradable que he conocido.</p>
+          <div class="review-meta">
+            <div class="review-avatar" aria-hidden="true">CL</div>
+            <div>
+              <div class="review-name">Carmen López</div>
+              <div class="review-service">Diseño de cejas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">Profesionalidad absoluta. Me escucha, me asesora y el resultado siempre supera mis expectativas. He probado muchas peluquerías en Córdoba y ninguna se acerca al nivel de Sonia Juárez.</p>
+          <div class="review-meta">
+            <div class="review-avatar" aria-hidden="true">IR</div>
+            <div>
+              <div class="review-name">Isabel Ruiz</div>
+              <div class="review-service">Color y corte</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-controls" aria-label="Controles del carrusel">
+      <button class="rev-btn" onclick="moveReviews(-1)" aria-label="Anterior reseña">←</button>
+      <div class="rev-dots" id="revDots" aria-hidden="true">
+        <span class="rev-dot active"></span>
+        <span class="rev-dot"></span>
+        <span class="rev-dot"></span>
+      </div>
+      <button class="rev-btn" onclick="moveReviews(1)" aria-label="Siguiente reseña">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section id="instagram" aria-label="Síguenos en Instagram">
+  <div class="container">
+    <div class="ig-inner">
+      <div class="ig-text">
+        <span class="eyebrow fade-up">Síguenos</span>
+        <h2 class="ig-title fade-up stagger-1">Inspírate con<br><em>nuestros trabajos</em><br>diarios</h2>
+        <p class="ig-body fade-up stagger-2">Cada día compartimos nuevas transformaciones, técnicas y resultados en Instagram. Síguenos para descubrir tendencias y ver de cerca el trabajo de Sonia.</p>
+        <div class="fade-up stagger-3">
+          <a href="https://www.instagram.com/soniajuarez_profesional_artist/" target="_blank" rel="noopener" class="btn-gold">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Ver en Instagram
+          </a>
+        </div>
+      </div>
+      <div class="ig-grid fade-in stagger-2" aria-label="Muestras de trabajo en Instagram">
+        <div class="ig-cell"><div class="ig-img" style="background-image:url('https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&q=75')" role="img" aria-label="Trabajo de color capilar"></div></div>
+        <div class="ig-cell"><div class="ig-img" style="background-image:url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=400&q=75')" role="img" aria-label="Maquillaje profesional"></div></div>
+        <div class="ig-cell"><div class="ig-img" style="background-image:url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&q=75')" role="img" aria-label="Imagen de salón"></div></div>
+        <div class="ig-cell"><div class="ig-img" style="background-image:url('https://images.unsplash.com/photo-1522337660329-26b11be3965b?w=400&q=75')" role="img" aria-label="Peinado profesional"></div></div>
+        <div class="ig-cell"><div class="ig-img" style="background-image:url('https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=400&q=75')" role="img" aria-label="Detalle de maquillaje"></div></div>
+        <div class="ig-cell"><div class="ig-img" style="background-image:url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=400&q=75')" role="img" aria-label="Color y transformación"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section id="schedule" aria-label="Horario de apertura">
+  <div class="container">
+    <div class="schedule-grid">
+      <div class="schedule-text">
+        <div class="eyebrow fade-up">
+          <div class="gold-line" aria-hidden="true"></div>
+          <span>Horario</span>
+        </div>
+        <h2 class="schedule-title fade-up stagger-1">Visítanos cuando<br>mejor <em>te venga</em></h2>
+        <p class="schedule-body fade-up stagger-2">Estamos en el corazón de Córdoba, en C/ María Montessori, 4 (Noroeste). Te esperamos de lunes a sábado para darte la experiencia de belleza que mereces.</p>
+        <div class="fade-up stagger-3" style="display:flex;gap:16px;flex-wrap:wrap">
+          <a href="tel:957089036" class="btn-primary">Llamar ahora</a>
+          <a href="https://maps.google.com/?q=C/+María+Montessori+4+Córdoba" target="_blank" rel="noopener" class="btn-outline">Cómo llegar</a>
+        </div>
+      </div>
+      <div class="fade-up stagger-2">
+        <ul class="hours-list" aria-label="Horario de apertura semanal">
+          <li class="hours-item"><span class="hours-day"><span class="hours-dot" aria-hidden="true"></span>Lunes</span><span class="hours-time">9:00 – 18:00</span></li>
+          <li class="hours-item"><span class="hours-day"><span class="hours-dot" aria-hidden="true"></span>Martes</span><span class="hours-time">9:00 – 18:00</span></li>
+          <li class="hours-item"><span class="hours-day"><span class="hours-dot" aria-hidden="true"></span>Miércoles</span><span class="hours-time">9:00 – 18:00</span></li>
+          <li class="hours-item"><span class="hours-day"><span class="hours-dot" aria-hidden="true"></span>Jueves</span><span class="hours-time">9:30 – 18:30</span></li>
+          <li class="hours-item"><span class="hours-day"><span class="hours-dot" aria-hidden="true"></span>Viernes</span><span class="hours-time">9:30 – 18:30</span></li>
+          <li class="hours-item"><span class="hours-day"><span class="hours-dot" aria-hidden="true"></span>Sábado</span><span class="hours-time">9:00 – 14:00</span></li>
+          <li class="hours-item"><span class="hours-day"><span class="hours-dot off" aria-hidden="true"></span>Domingo</span><span class="hours-time closed">Cerrado</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="cta-final" aria-label="Reservar cita">
+  <div class="cta-bg-text" aria-hidden="true">Belleza</div>
+  <div class="container">
+    <div class="cta-eyebrow fade-up">
+      <div class="gold-line" aria-hidden="true"></div>
+      <span class="eyebrow">¿Lista para tu transformación?</span>
+      <div class="gold-line" aria-hidden="true"></div>
+    </div>
+    <h2 class="cta-title fade-up stagger-1">
+      Reserva tu cita<br><em>hoy mismo</em>
+    </h2>
+    <p class="cta-sub fade-up stagger-2">Más de 210 mujeres ya han vivido la experiencia Sonia Juárez.<br>Ahora es tu turno.</p>
+    <div class="cta-buttons fade-up stagger-3">
+      <a href="tel:957089036" class="btn-white">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Llamar ahora
+      </a>
+      <a href="https://wa.me/34957089036?text=Hola%20Sonia%2C%20me%20gustar%C3%ADa%20reservar%20una%20cita" target="_blank" rel="noopener" class="btn-gold">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+      <a href="https://www.instagram.com/soniajuarez_profesional_artist/" target="_blank" rel="noopener" class="btn-outline" style="color:rgba(250,248,244,0.7);border-color:rgba(250,248,244,0.25)">Ver Instagram</a>
+    </div>
+    <a href="tel:957089036" class="cta-tel fade-up stagger-5">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+      957 08 90 36
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#hero" class="logo" style="font-family:var(--serif);font-size:22px;font-weight:300;color:var(--ivory)">Sonia Juárez Estilistas</a>
+        <p class="footer-tagline">Especialistas en color capilar, maquillaje profesional y diseño de cejas en Córdoba. Tu imagen, nuestra pasión.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/soniajuarez_profesional_artist/" target="_blank" rel="noopener" class="footer-social" aria-label="Instagram de Sonia Juárez">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/soniajuarezestilistas/" target="_blank" rel="noopener" class="footer-social" aria-label="Facebook de Sonia Juárez">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://wa.me/34957089036" target="_blank" rel="noopener" class="footer-social" aria-label="WhatsApp de Sonia Juárez">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Navegación</div>
+        <ul>
+          <li><a href="#about">Quiénes somos</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#gallery">Galería</a></li>
+          <li><a href="#reviews">Reseñas</a></li>
+          <li><a href="#schedule">Horario</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Servicios</div>
+        <ul>
+          <li><a href="tel:957089036">Color profesional</a></li>
+          <li><a href="tel:957089036">Maquillaje</a></li>
+          <li><a href="tel:957089036">Diseño de cejas</a></li>
+          <li><a href="tel:957089036">Asesoramiento</a></li>
+          <li><a href="tel:957089036">Maquillaje de novia</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Contacto</div>
+        <address class="footer-address" style="font-style:normal">
+          C/ María Montessori, 4<br>
+          Noroeste, 14011<br>
+          Córdoba, España<br><br>
+          <a href="tel:957089036" style="color:var(--gold);text-decoration:none;font-size:16px;font-weight:500;letter-spacing:.05em">957 08 90 36</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer-map" aria-label="Mapa de ubicación de Sonia Juárez Estilistas">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.4!2d-4.779!3d37.888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCalle+Mar%C3%ADa+Montessori+4+C%C3%B3rdoba!5e0!3m2!1ses!2ses!4v1620000000000!5m2!1ses!2ses"
+        title="Ubicación de Sonia Juárez Estilistas en Córdoba"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Sonia Juárez Estilistas · Todos los derechos reservados · Córdoba</p>
+      <p class="footer-copy">Diseñado con ✦ en Córdoba</p>
+    </div>
+  </div>
+</footer>
+
+<!-- STICKY CTAs -->
+<div class="sticky-ctas" role="complementary" aria-label="Botones de contacto rápido">
+  <a href="tel:957089036" class="sticky-btn sticky-call" aria-label="Llamar a Sonia Juárez Estilistas">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+  </a>
+  <a href="https://wa.me/34957089036?text=Hola%20Sonia%2C%20me%20gustar%C3%ADa%20reservar%20una%20cita" target="_blank" rel="noopener" class="sticky-btn sticky-wa" aria-label="Enviar WhatsApp a Sonia Juárez">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/soniajuarez_profesional_artist/" target="_blank" rel="noopener" class="sticky-btn sticky-ig" aria-label="Ver Instagram de Sonia Juárez">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+  </a>
+</div>
+
+<script>
+// ─── LOADER ───
+window.addEventListener('load', () => {
+  const bar = document.getElementById('loaderBar');
+  const loader = document.getElementById('loader');
+  let w = 0;
+  const iv = setInterval(() => {
+    w += Math.random() * 25;
+    if (w >= 100) { w = 100; clearInterval(iv); }
+    bar.style.width = w + '%';
+  }, 120);
+  setTimeout(() => loader.classList.add('done'), 900);
+});
+
+// ─── HEADER SCROLL ───
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 60);
+}, { passive: true });
+
+// ─── MOBILE MENU ───
+function openMobileMenu() {
+  document.getElementById('mobileMenu').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeMobileMenu() {
+  document.getElementById('mobileMenu').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ─── SCROLL ANIMATIONS ───
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.fade-up, .fade-in').forEach(el => observer.observe(el));
+
+// ─── REVIEWS CAROUSEL ───
+let reviewPos = 0;
+const track = document.getElementById('reviewsTrack');
+const cards = track.querySelectorAll('.review-card');
+const dots = document.querySelectorAll('.rev-dot');
+let cardsVisible = window.innerWidth <= 900 ? 1 : 3;
+const maxPos = Math.ceil(cards.length / cardsVisible) - 1;
+
+function updateCarousel() {
+  cardsVisible = window.innerWidth <= 900 ? 1 : 3;
+  const cardW = cards[0].offsetWidth + 32;
+  track.style.transform = `translateX(-${reviewPos * cardsVisible * cardW}px)`;
+  dots.forEach((d,i) => d.classList.toggle('active', i === reviewPos));
+}
+
+function moveReviews(dir) {
+  const max = Math.ceil(cards.length / cardsVisible) - 1;
+  reviewPos = Math.max(0, Math.min(max, reviewPos + dir));
+  updateCarousel();
+}
+
+window.addEventListener('resize', updateCarousel, { passive: true });
+
+// ─── LIGHTBOX ───
+function openLightbox(src) {
+  const lb = document.getElementById('lightbox');
+  const img = document.getElementById('lightboxImg');
+  img.src = src;
+  lb.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeLightbox();
+});
+
+// ─── GALLERY KEYBOARD ───
+document.querySelectorAll('.gallery-item').forEach(item => {
+  item.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') item.click();
+  });
+});
+</script>
+</body>
+</html>
